@@ -4,8 +4,8 @@ $s3config = array(
     'region'  => 'us-east-1',
     'version' => 'latest',
     'credentials' => [
-        'key'    => 'AKIA2YJN2VLFBMA2U64C',//Put key here
-        'secret' => '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'// Put Secret here
+        'key'    => '',//Put key here
+        'secret' => ''// Put Secret here
     ]
 );
 $bucket = 'all-upload-website';

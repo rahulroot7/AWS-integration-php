@@ -2,7 +2,7 @@
 // query the user media
 $fields = "id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username
 ";
-$token = "IGQVJXdl93MS10TEhkUnk4d1JtMzlLTUY1bUVTbE5BTjZAHQWFhZAERObU01cTE3VXQ5LTlwbnlYenlwZAGl5bDdEMmtMYXRib0RqajJ3dkJUMm5LUm1ZANlNvbVZA3ZADdIX194aU5XeFREcVY1MUVzeWo0SAZDZD";
+$token = " ";
 $limit = 10;
  
 $json_feed_url="https://graph.instagram.com/me/media?fields={$fields}&access_token={$token}&limit={$limit}";
